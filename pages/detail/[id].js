@@ -34,8 +34,8 @@ const ItemDetail = () => {
                     <img className=" h-1/2 object-cover" src={item.img} alt={item.title} />
                     <div className=' w-full text-center h-1/2 grid grid-cols-1 gap-8 pt-12 '>
                         <h2 className='text-4xl text-black my-4'>{item.title}</h2>
-                        <p className='text-black my-2 opacity-60'>{item.description}</p>
-                        <p className='text-black opacity-60'>SHOW STATISTIC</p>
+                        <p className='text-black tracking-wider text-xs my-2 opacity-60'>{item.description}</p>
+                        <p className='text-black text-sm opacity-60 font-sans'>SHOW STATISTIC</p>
                     </div>
 
                 </div>
