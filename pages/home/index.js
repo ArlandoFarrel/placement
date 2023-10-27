@@ -33,7 +33,7 @@ export default function Home () {
         <div className=" bg-white h-full  flex flex-col justify-center items-center">
        {searchResults.map(item => (
           <Card
-            key={item.title}
+            id={item.id}
             title={item.title}
             stock={item.stock}
             description={item.description}
